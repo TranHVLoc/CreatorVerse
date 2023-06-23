@@ -1,0 +1,23 @@
+.show-creators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.creator-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+    justify-items: center;
+    width: 100%;
+    max-width: 1200px; /* adjust this as needed */
+}
+
+input[type="text"] {
+    width: 500px;
+    margin-bottom: 1em;
+    color: #333;
+    background-color: whitesmoke;
+}

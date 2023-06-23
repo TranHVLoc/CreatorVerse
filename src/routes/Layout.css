@@ -1,0 +1,62 @@
+.header {
+    background-image: url("https://images.unsplash.com/photo-1517605817225-1a38c494d974?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80");
+    background-repeat: no-repeat;
+    background-size: cover; /* This will make sure the image covers the entire nav bar. */
+    width: 100%;
+    height: 250px;
+    position: fixed; /* This will make your navbar stick to the top of the page. */
+    top: 0; /* This will ensure that the navbar is always at the very top. */
+    padding: 10px 0;
+    z-index: 1; /* Added to ensure the navbar appears above the rest of the content */
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 0.5vb solid white;
+}
+
+.content {
+    padding-top: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+}
+
+.main-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.main-nav li {
+    margin-left: 20px;
+    padding: 10px;
+    transition: border-bottom 0.5s;
+    border-bottom: 2px solid transparent;
+    
+    &:hover {
+        border-bottom: 2px solid white;
+    }
+
+    &:active {
+        border-bottom: 2px solid white;
+    }
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+h1 {
+    color: lightskyblue;
+}

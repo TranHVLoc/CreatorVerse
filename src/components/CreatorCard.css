@@ -1,0 +1,67 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+
+.Card:hover {
+    transform: scale(1.05);
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #333;
+}
+
+.action-icons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
